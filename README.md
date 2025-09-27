@@ -1,9 +1,10 @@
 <div align="center">
 
-# 🚀 Cineby Home Theater - Electron
+# Cineby Home Theater
 
 <p align="center">
     <img src=".github/branding/banner.png" alt="Cineby branding image"><br>
+    <p>Powered by Electron</p>
 </p>
 
 ¡Hola a todos! Me emociona anunciar la primera versión estable de **Cineby Home Theater**, una aplicación de escritorio diseñada para ofrecerte la mejor experiencia de cine en casa.
