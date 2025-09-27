@@ -3,7 +3,7 @@
 # Cineby Home Theater
 
 <p align="center">
-        <img src=".github/branding/banner.png" alt="Cineby branding image" width="800" style="border-radius:24px;"><br>
+        <img src=".github/branding/banner.png" alt="Cineby branding image" width="700" style="border-radius:24px;"><br>
         <i style="font-size: 10px; color: currentColor;">
             <a href="https://www.electronjs.org/" style="color: currentColor; text-decoration: none;">Powered by Electron</a>
         </i>
