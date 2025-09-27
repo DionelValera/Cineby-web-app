@@ -15,8 +15,8 @@ Esta aplicación envuelve la web de Cineby.app en un entorno dedicado de escrito
 
 ## ⬇️ Descargas
 
-Descarga el instalador correspondiente a tu sistema operativo.
-↓↓↓↓↓↓↓↓
+Descarga el instalador correspondiente a tu sistema operativo. <br/>
+↓↓↓↓↓↓↓↓<br/>
 https://github.com/DionelValera/cineby-web-app/releases/tag/stable-release
 
 ### 💻 Windows
