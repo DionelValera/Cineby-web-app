@@ -1,7 +1,7 @@
 {
-  "name": "cineby-web-app",
+  "name": "Cineby",
   "version": "1.0.0",
-  "description": "a cineby web app, an app of home theater and cine in home",
+  "description": "Cineby is a web app, an app of home theater and cine in home",
   "keywords": [
     "cine",
     "Cine",
@@ -25,9 +25,32 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "dist": "electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "electron": "^38.1.2"
+    "electron": "^38.1.2",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.dionelvalera.cinebyapp",
+    "productName": "Cineby Home Theater",
+    "files": [
+      "main.js",
+      "preload.js",
+      "package.json",
+      "icon.png"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon.png"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "icon.png"
+    }
   }
 }
