@@ -32,13 +32,18 @@ https://github.com/DionelValera/cineby-web-app/releases/tag/stable-release
 
 *(Recuerda dar permisos de ejecución al archivo después de descargarlo.)*
 
+### 📱 Android y Android TV 
+
+* **Apk:**
+
+({MUY PRONTO})
 ---
 
 ## 🛠️ Instalación y Uso
 
 1.  Descarga el archivo correspondiente a tu sistema.
-2.  **Windows (.exe):** Ejecuta el instalador y sigue los pasos.
-3.  **Linux (AppImage):** Clic derecho > Propiedades > Permisos > Marcar como ejecutable. Luego, haz doble clic.
+2.  **Windows (.exe):** Ejecuta el instalador y lo encontrarás instalado!
+3.  **Linux (AppImage):** usar un manager de appimage para su correcto uso; o también: Click derecho > Propiedades > Permisos > Marcar como ejecutable. Luego, haz doble clic.
 4.  ¡Disfruta de tus películas sin interrupciones!
 
 ---
