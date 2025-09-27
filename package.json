@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/DionelValera/cineby-web-app.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "author": "Dionel Valera",
   "type": "commonjs",
   "main": "main.js",
