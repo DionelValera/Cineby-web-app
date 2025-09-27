@@ -11,10 +11,15 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 1200, 
     height: 800, 
-    frame: false, 
-    titleBarStyle: 'hidden', 
+    // === RESTAURADO: Usamos el marco de ventana nativo del SO ===
+    frame: true, 
+    // Esto ya no es necesario, el OS maneja el título
+    // titleBarStyle: 'hidden', 
+    
+    // Configuración de Ícono
     icon: path.join(__dirname, 'icon.png'),
     webPreferences: {
+      // Dejamos el preload por si lo necesitas en el futuro, pero estará vacío.
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: false, 
       contextIsolation: true 
@@ -27,11 +32,13 @@ function createWindow () {
   // Desactiva el menú de desarrollo.
   mainWindow.setMenu(null); 
 
-  // Bloqueo de ventanas emergentes/redirecciones externas
+  // === BLOQUEO DE VENTANAS EMERGENTES/REDIRECCIONES EXTERNAS ===
   mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+    // Si la URL es cineby.app, permitimos la navegación.
     if (url.startsWith('https://cineby.app')) {
       return { action: 'allow' };
     }
+    // Si es externa, bloqueamos la creación de la nueva ventana.
     return { action: 'deny' }; 
   });
 
@@ -39,33 +46,13 @@ function createWindow () {
   mainWindow.on('closed', () => {
     mainWindow = null;
   });
+  
+  // No necesitamos IPC listeners para minimizar/maximizar/cerrar,
+  // ya que el marco nativo de Linux/Hyprland los maneja.
 }
 
-// Escuchadores IPC para los comandos de ventana (minimizar, maximizar, cerrar)
 app.whenReady().then(() => {
     createWindow();
-
-    ipcMain.on('window-close', () => {
-        if (mainWindow) {
-            mainWindow.close();
-        }
-    });
-
-    ipcMain.on('window-minimize', () => {
-        if (mainWindow) {
-            mainWindow.minimize();
-        }
-    });
-
-    ipcMain.on('window-maximize', () => {
-        if (mainWindow) {
-            if (mainWindow.isMaximized()) {
-                mainWindow.unmaximize();
-            } else {
-                mainWindow.maximize();
-            }
-        }
-    });
 });
 
 app.on('window-all-closed', () => {
