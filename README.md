@@ -27,13 +27,16 @@ Esta aplicación envuelve la web de Cineby.app en un entorno dedicado de escrito
 ## 📸 Screenshots
 <div align="center">
     <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
+        <img src="screenshots/home.png" alt="Home" width="400" />
         <img src="screenshots/bladerunner.png" alt="Blade Runner" width="400" />
-        <img src="screenshots/search.png" alt="Search" width="400" />
     </div>
     <div style="display: flex; justify-content: center; gap: 10px;">
         <img src="screenshots/top10.png" alt="Top 10" width="400" />
-        <img src="screenshots/home.png" alt="Home" width="400" />
-        <img src="screenshots/options.png" alt="Home 2" width="400" />
+        <img src="screenshots/search.png" alt="Search" width="400" />
+    </div>
+    <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="screenshots/login.png" alt="login" width="400" />
+        <img src="screenshots/options.png" alt="options2" width="400" />
     </div>
 </div>
 
