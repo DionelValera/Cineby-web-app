@@ -16,15 +16,21 @@ Esta aplicación envuelve la web de Cineby.app en un entorno dedicado de escrito
 ## ⬇️ Descargas
 
 Descarga el instalador correspondiente a tu sistema operativo.
+↓↓↓↓↓↓↓↓
+https://github.com/DionelValera/cineby-web-app/releases/tag/stable-release
 
 ### 💻 Windows
 
-* **Instalador:** [Cineby Home Theater-{Número de Versión}-Setup.exe]
+* **Instalador:**
+cineby-web-app-v1.0.exe
 
 ### 🐧 Linux
 
-* **AppImage:** [Cineby Home Theater-{Número de Versión}.AppImage]({MUY PRONTO})
-    *(Recuerda dar permisos de ejecución al archivo después de descargarlo.)*
+* **AppImage:**
+
+({MUY PRONTO})
+
+*(Recuerda dar permisos de ejecución al archivo después de descargarlo.)*
 
 ---
 
