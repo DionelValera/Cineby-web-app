@@ -1,0 +1,28 @@
+Node
+node_modules
+npm-debug.log
+.DS_Store
+
+Electron
+Directorios de compilación y empaquetado
+dist/
+release/
+out/
+.electron/
+
+Archivos de la aplicación y caché
+Este archivo lo crea Electron para depuración
+debug.log
+
+Logs y caché de usuario
+Dependerá de tu SO, pero es bueno ignorarlos
+.vscode-test/
+.cache/
+
+Archivos de entorno y secretos
+.env
+.env.local
+
+Archivos que a veces se crean en Arch Linux (Hyprland)
+*.swp
+*~
