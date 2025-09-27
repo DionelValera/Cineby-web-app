@@ -1,16 +1,19 @@
 <div align="center">
+
 # 🚀 Cineby Home Theater - Electron
 
 <p align="center">
-    <img src=".github/branding/banner.png" alt="Rehike branding image"><br>
-    <i><a href="https://discord.gg/rqBJ9EXDTH">Discord</a></i>
+    <img src=".github/branding/banner.png" alt="Cineby branding image"><br>
 </p>
 
 ¡Hola a todos! Me emociona anunciar la primera versión estable de **Cineby Home Theater**, una aplicación de escritorio diseñada para ofrecerte la mejor experiencia de cine en casa.
 
 Esta aplicación envuelve la web de Cineby.app en un entorno dedicado de escritorio (Electron), asegurando una experiencia de usuario limpia, dedicada y sin distracciones.
+
 </div>
+
 ---
+
 ## ✨ Características Principales
 
 * **Experiencia sin distracciones:** Marco de ventana nativo para una integración perfecta en el escritorio (Windows/Linux).
@@ -32,6 +35,7 @@ Esta aplicación envuelve la web de Cineby.app en un entorno dedicado de escrito
     </div>
 </div>
 ---
+
 ## ⬇️ Descargas
 
 Descarga el instalador correspondiente a tu sistema operativo. <br/>
