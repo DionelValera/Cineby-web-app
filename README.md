@@ -4,7 +4,7 @@
 
 <p align="center">
     <img src=".github/branding/banner.png" alt="Cineby branding image"><br>
-    <p>Powered by Electron</p>
+    <i style="font-size: 10px">Powered by Electron</i>
 </p>
 
 ¡Hola a todos! Me emociona anunciar la primera versión estable de **Cineby Home Theater**, una aplicación de escritorio diseñada para ofrecerte la mejor experiencia de cine en casa.
@@ -35,8 +35,9 @@ Esta aplicación envuelve la web de Cineby.app en un entorno dedicado de escrito
         <img src="screenshots/search.png" alt="Search" width="400" />
     </div>
     <div style="display: flex; justify-content: center; gap: 10px;">
-        <img src="screenshots/login.png" alt="login" width="400" />
+    
         <img src="screenshots/options.png" alt="options2" width="400" />
+        <img src="screenshots/login.png" alt="login" width="400" />
     </div>
 </div>
 
