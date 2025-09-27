@@ -10,7 +10,7 @@ function createWindow () {
     height: 800, 
     frame: true, 
     
-    icon: path.join(__dirname, 'logo.png'),
+    icon: path.join(__dirname, 'icon.png'),
     webPreferences: {
       // Dejamos el preload por si lo necesitamos en el futuro, pero ahora está vacío.
       preload: path.join(__dirname, 'preload.js'),
