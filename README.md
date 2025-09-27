@@ -22,7 +22,7 @@ https://github.com/DionelValera/cineby-web-app/releases/tag/stable-release
 ### 💻 Windows
 
 * **Instalador:**
-cineby-web-app-v1.0.exe
+[cineby-web-app-v1.0.exe](https://github.com/DionelValera/cineby-web-app/releases/download/stable-release/Cineby-Setup-1.0.exe)
 
 ### 🐧 Linux
 
