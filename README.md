@@ -3,8 +3,10 @@
 # Cineby Home Theater
 
 <p align="center">
-    <img src=".github/branding/banner.png" alt="Cineby branding image"><br>
-    <i style="font-size: 10px">Powered by Electron</i>
+        <img src=".github/branding/banner.png" alt="Cineby branding image" width="800" style="border-radius:24px;"><br>
+        <i style="font-size: 10px; color: currentColor;">
+            <a href="https://www.electronjs.org/" style="color: currentColor; text-decoration: none;">Powered by Electron</a>
+        </i>
 </p>
 
 ¡Hola a todos! Me emociona anunciar la primera versión estable de **Cineby Home Theater**, una aplicación de escritorio diseñada para ofrecerte la mejor experiencia de cine en casa.
@@ -27,17 +29,16 @@ Esta aplicación envuelve la web de Cineby.app en un entorno dedicado de escrito
 ## 📸 Screenshots
 <div align="center">
     <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
-        <img src="screenshots/home.png" alt="Home" width="400" />
-        <img src="screenshots/bladerunner.png" alt="Blade Runner" width="400" />
+        <img src="screenshots/home.png" alt="Home" width="400" style="border-radius:14px;" />
+        <img src="screenshots/bladerunner.png" alt="Blade Runner" width="400" style="border-radius:14px;" />
     </div>
-    <div style="display: flex; justify-content: center; gap: 10px;">
-        <img src="screenshots/top10.png" alt="Top 10" width="400" />
-        <img src="screenshots/search.png" alt="Search" width="400" />
+    <div style="display: flex; justify-content: center; gap: 10px;  margin-bottom: 10px;">
+        <img src="screenshots/top10.png" alt="Top 10" width="400" style="border-radius:14px;" />
+        <img src="screenshots/search.png" alt="Search" width="400" style="border-radius:14px;" />
     </div>
-    <div style="display: flex; justify-content: center; gap: 10px;">
-    
-        <img src="screenshots/options.png" alt="options2" width="400" />
-        <img src="screenshots/login.png" alt="login" width="400" />
+    <div style="display: flex; justify-content: center; gap: 10px;  margin-bottom: 10px;">
+        <img src="screenshots/options.png" alt="options2" width="400" style="border-radius:14px;" />
+        <img src="screenshots/login.png" alt="login" width="400" style="border-radius:14px;" />
     </div>
 </div>
 
