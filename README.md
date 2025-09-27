@@ -23,6 +23,7 @@ Esta aplicación envuelve la web de Cineby.app en un entorno dedicado de escrito
 * **Rendimiento optimizado:** Construido sobre la base rápida de Electron.
 
 ---
+
 ## 📸 Screenshots
 <div align="center">
     <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
@@ -32,9 +33,10 @@ Esta aplicación envuelve la web de Cineby.app en un entorno dedicado de escrito
     <div style="display: flex; justify-content: center; gap: 10px;">
         <img src="screenshots/top10.png" alt="Top 10" width="400" />
         <img src="screenshots/home.png" alt="Home" width="400" />
-        <img src="screenshots/home2.png" alt="Home 2" width="400" />
+        <img src="screenshots/options.png" alt="Home 2" width="400" />
     </div>
 </div>
+
 ---
 
 ## ⬇️ Descargas
@@ -61,6 +63,7 @@ https://github.com/DionelValera/cineby-web-app/releases/tag/stable-release
 * **Apk:**
 
 ({MUY PRONTO})
+
 ---
 
 ## 🛠️ Instalación y Uso
