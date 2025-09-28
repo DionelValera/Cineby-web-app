@@ -66,8 +66,7 @@ https://github.com/DionelValera/cineby-web-app/releases/tag/stable-release
 ### 📱 Android y Android TV 
 
 * **Apk:**
-
-({MUY PRONTO})
+[cineby-1.0.apk](https://github.com/DionelValera/Cineby-web-app/releases/download/stable-release/Cineby-1.0.apk)
 
 ---
 
