@@ -1,0 +1,10 @@
+{
+  "appId": "com.dionelvalera.cinebyapp",
+  "appName": "Cineby",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://cineby.app",
+    "allowNavigation": ["*"]
+  }
+}

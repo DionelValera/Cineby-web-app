@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Cineby</string>
+    <string name="title_activity_main">Cineby</string>
+    <string name="package_name">com.dionelvalera.cinebyapp</string>
+    <string name="custom_url_scheme">com.dionelvalera.cinebyapp</string>
+</resources>
